@@ -2,60 +2,37 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>JS Drum Kit</title>
+  <title>Calm Yourself</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
+<div class="padding">
+  <h1 class="title">stressed? <br /> <br />
+    1. plug in headphones
+    <br />2. type in 2, 3 or 4 
+    <br />3. listen to the meditation 
+    <br />4. hygge out</h1>
 
-
+</div>
   <div class="keys">
-    <div data-key="65" class="key">
-      <kbd>A</kbd>
-      <span class="sound">clap</span>
+
+    <div data-key="50" class="key">
+      <kbd>2</kbd>
+      <span class="sound">two min meditate</span>
     </div>
-    <div data-key="83" class="key">
-      <kbd>S</kbd>
-      <span class="sound">hihat</span>
+    <div data-key="51" class="key">
+      <kbd>3</kbd>
+      <span class="sound">three min meditation</span>
     </div>
-    <div data-key="68" class="key">
-      <kbd>D</kbd>
-      <span class="sound">kick</span>
-    </div>
-    <div data-key="70" class="key">
-      <kbd>F</kbd>
-      <span class="sound">openhat</span>
-    </div>
-    <div data-key="71" class="key">
-      <kbd>G</kbd>
-      <span class="sound">boom</span>
-    </div>
-    <div data-key="72" class="key">
-      <kbd>H</kbd>
-      <span class="sound">ride</span>
-    </div>
-    <div data-key="74" class="key">
-      <kbd>J</kbd>
-      <span class="sound">snare</span>
-    </div>
-    <div data-key="75" class="key">
-      <kbd>K</kbd>
-      <span class="sound">tom</span>
-    </div>
-    <div data-key="76" class="key">
-      <kbd>L</kbd>
-      <span class="sound">tink</span>
+    <div data-key="52" class="key">
+      <kbd>4</kbd>
+      <span class="sound">four min meditation</span>
     </div>
   </div>
 
-  <audio data-key="65" src="sounds/clap.wav"></audio>
-  <audio data-key="83" src="sounds/hihat.wav"></audio>
-  <audio data-key="68" src="sounds/kick.wav"></audio>
-  <audio data-key="70" src="sounds/openhat.wav"></audio>
-  <audio data-key="71" src="sounds/boom.wav"></audio>
-  <audio data-key="72" src="sounds/ride.wav"></audio>
-  <audio data-key="74" src="sounds/snare.wav"></audio>
-  <audio data-key="75" src="sounds/tom.wav"></audio>
-  <audio data-key="76" src="sounds/tink.wav"></audio>
+  <audio data-key="50" src="sounds/calm.mp4"></audio>
+  <audio data-key="51" src="sounds/ThreeMin.mp4"></audio>
+  <audio data-key="52" src="sounds/FourMin.mp4"></audio>
 
 <script>
   function removeTransition(e) {

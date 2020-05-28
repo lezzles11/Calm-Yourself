@@ -1,27 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
 html {
   font-size: 10px;
-  background: url(https://i.imgur.com/b9r5sEL.jpg) bottom center;
+  background: url(https://pbs.twimg.com/media/DuhmZBUW0AAfd_L.jpg) bottom center;
   background-size: cover;
+  font-family: 'Lora', serif;
 }
 
 body,html {
   margin: 0;
   padding: 0;
-  font-family: sans-serif;
+  font-family: 'Lora', serif;
 }
 
 .keys {
   display: flex;
   flex: 1;
   min-height: 100vh;
+
+  font-family: 'Lora', serif;
   align-items: center;
   justify-content: center;
 }
 
 .key {
-  border: .4rem solid black;
+  border: .4rem solid beige;
   border-radius: .5rem;
   margin: 1rem;
+
+  font-family: 'Lora', serif;
   font-size: 1.5rem;
   padding: 1rem .5rem;
   transition: all .07s ease;
@@ -31,16 +37,26 @@ body,html {
   background: rgba(0,0,0,0.4);
   text-shadow: 0 0 .5rem black;
 }
+.padding {
+  padding: 20px
+}
+.title {
+  color: white
+}
 
 .playing {
   transform: scale(1.1);
   border-color: #ffc600;
+
+  font-family: 'Lora', serif;
   box-shadow: 0 0 1rem #ffc600;
 }
 
 kbd {
   display: block;
   font-size: 4rem;
+
+  font-family: 'Lora', serif;
 }
 
 .sound {
